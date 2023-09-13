@@ -1,0 +1,153 @@
+body{
+    font-family: 'Poppins', sans-serif;
+background-color: beige;
+}
+
+.project_section1{
+    width: 90vw;
+    margin: 10px 0px -7px 80px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.potatofit{
+    font-size: 185%;
+    font-weight: 200;
+    color: rgb(186 186 42);
+    margin-right: 20px;
+
+}
+
+.project_section2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    width: 90vw;
+    height: 560px;
+    margin: 0 80px;
+    padding-left: 10px;
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 57px;
+}
+
+.project_mask{
+    width: 90vw;
+    height: 560px;
+    margin: -560px 80px 0 80px;
+    padding-left: 10px;
+    background-color: #00000010;
+    border-radius: 57px;
+}
+
+.project_section3{
+    width: 90vw;
+    margin: 18px 80px 0px 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.project_section4{
+    width: 90vw;
+    margin: 0px 83px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+
+    
+}
+
+.project_img{
+    /* border-color: #ead3b6;
+    border-style: solid; */
+    width: 344px;
+    border-radius: 57px;
+    /* border-width: 4px; */
+    background-color: #fff;
+}
+
+h1{
+    color: rgb(0 0 0);
+    font-weight: 200;
+    font-size: 168%;
+}
+
+.highlight{
+    color:black;
+    font-weight: 600;
+}
+
+.project_desc{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 67px 32px;
+    font-size: 101px;
+    line-height: 105px;
+    font-weight: 600;
+}
+
+.project_start{
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    margin: -14px 20px 20px 32px;
+    background-color: #000;
+    display: grid;
+    border-radius: 54px;
+    width: 150px;
+    height: 51px;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.project_starticon{
+    display: inline-grid;
+    margin: -325px 20px 20px 954px;
+    width: 281px;
+    animation: move 1.3s infinite;
+}
+@keyframes move{
+    0%{
+        transform:translateY(-5px);
+    }
+    50%{
+        transform:translateY(5px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+
+
+.project_guide{
+    font-size: 2vw;
+    font-weight: 600;
+    margin-right: 27px;
+}
+
+.thiner{
+    font-size: 2vw;
+    font-weight: 200;
+    margin-right: 22px;
+    color:rgb(0, 0, 0);
+}
+
+.project_exercise{
+    font-size: 23px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 17px;
+    color: #000000;
+}
