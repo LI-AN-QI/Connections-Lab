@@ -1,0 +1,55 @@
+body{
+    height:400px;
+    background-color: black;
+}
+
+/* The container that holds the text */
+/* position: in the center of the page */
+.container{
+    height:100vh;
+    display: flex;
+    align-items:center; 
+    justify-content: center; 
+}
+
+/* Attributes for the text */
+/* The position is 'fixed',so when scrolling, it maintains in the center of the page */
+#text{
+    font-size:22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aliceblue;
+    position: fixed;
+}
+
+/* The container that holds the 'phone.png' */
+/* position: in the center of the page */
+.image1{
+    width:180px;
+    margin: 0 auto;
+}
+
+/* Attributes for the 'phone.png' */
+/* Size: Fill the whole container */
+#img1{
+    width:100%;
+    margin-top: 132px;
+    margin-bottom: 120px;
+}
+
+/* The container that holds the 'screen.png' */
+.image2{
+    width:350px;
+    margin: 0 auto;
+}
+
+/* Attributes for the 'screen.png' */
+#img2{
+    width:100%;
+    margin-top: -300px;
+}
+
+/* Attribute for hidding the previous content (which is being displayed)*/
+.hidden{
+    display:none;
+}
