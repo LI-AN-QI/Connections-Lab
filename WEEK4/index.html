@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"></link>    
+    <title>🍪Advice Cookie: Best Advice Teller</title>
+</head>
+
+<body>
+ <!-- section1 :Landing Page-->
+    <section class="section1" id="s1">
+        <h1 class="adviceh1">Advice Cookie</h1>
+        <div class="intro">
+                <img id="cover" src="cover.png"/>
+                <div class="optiondiv1">
+                    <button class="intro2" id="random">random</button>
+                </div>
+                <div class="optiondiv2">
+                    <button class="intro3" id="search">search</button>
+                </div>
+        </div>
+        
+        <div class="aboutdiv">
+            <button class="intro1" id="about">about</button>
+        </div>
+    </section>
+
+<!-- section2 :Random Page_shake the jar_pick a cookie_crack it-->
+    <section class="section2">
+        <h3>Click the jar to get a cookie!</h3> 
+        <div class="displayInline"> 
+            <img class="jar shown" id="jarimg" src="jar.png" />
+        </div>
+        <img class="cks shown" id="cksimg" src="cks.png"/>
+        <img class="cookie hidden" id="cookieimg" src="cookie.png"/>
+        <button class="btn hidden" id="crack">crack it!</button>
+    </section>
+
+<!-- section3 :Random Page_advice paper emerge-->
+    <section class="section3">
+        <h3>Check out your advice paper!</h3>
+        <div class="cracked">
+            <img class="left hidden" id="leftimg" src="leftcookie.png"/>
+            <img class="tape hidden" id="tapeimg" src="tape.png"/>
+            <img class="right hidden" id="rightimg" src="rightcookie.png"/>
+        </div>
+        <img class="arrow hidden" id="arrowimg" src="arrow.png"/>
+    </section>
+
+<!-- section4 :Random Result & Search Result-->
+    <section class="section4">
+        <div class="inside4">
+            <img class="left-L"  src="leftcookie.png"/>
+            <img class="tapeL" src="tapeL.png"/>
+            <img class="right-L" src="rightcookie.png"/>
+            <p class="hidden" id="textp"></p>  
+        </div>
+        
+        <div>
+            <button class="btn hidden" id="back">back</button>
+        </div>
+    </section>
+
+<!-- section5: About Page -->
+    <section class="section5">
+        <img class="aboutclose" id="close" title="close About" src="close.png"/>
+        <h3 class="abouth3">about</h3>
+        <div class="inside5">
+            <h1 class="abouth1">Seeking for inspiration<br>or just a friendly <span style="text-decoration: underline;">advice</span>?</h1>
+            <p class="aboutp"> 
+            This is an online advice generator with more than 10 million advice here ready to help you!! <br>
+            Get a fresh perspective with just one click on <span style="font-weight: 600; text-decoration: underline;">random</span> to generate one piece of random advice<br>
+            OR click on <span style="font-weight: 600; text-decoration: underline;">search</span> for specific advice to your interests. 
+            Look no further! <span style="font-weight: 600;text-decoration: underline;">Turn on your sound</span>, <br>take a bite and let us inspire your day :）
+            </p>
+        </div>
+    </section>
+
+<!-- section6: Search Tool -->
+    <section class="section6">
+        <input type="text" id="search-input" placeholder="Type in a keyword to search">
+        <img id="searchbtn" src="search.png"/>
+        <div>
+            <p class="noidea">No idea? Try these words:</p>
+            <div class="hint">
+                <p style="margin-left: 1%;margin-top:3.6%">
+                    final<br> 
+                    speech<br>
+                    brave<br>
+                </p>
+                <p style="margin-left: 7%;margin-top:3.6%">
+                    compare<br>
+                    grandparents <br>
+                    invention<br>
+                </p>  
+            </div>   
+        </div>
+    </section>
+  
+
+
+
+<!-- p5 library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
